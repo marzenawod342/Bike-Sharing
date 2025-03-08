@@ -194,7 +194,7 @@ else:
     
     st.header("Conclusions and recommendations")
     bikes = Image.open("recs.jpg")  #https://unsplash.com/s/photos/citi-bike
-    st.image(bikes, use_column_width=True)
+    st.image(bikes)
     st.markdown("### My analysis has shown that Citi Bikes should focus on the following objectives moving forward:")
     st.markdown("- Add more stations to the locations around the Hudson River, Manhattan and Central Park as these seem to be the most popular areas.")
     st.markdown("- Improve connectivity of the stations that are heavily used as starting points but not destinations or vice versa such as Broadway & W 58 St. with other locations.") 
