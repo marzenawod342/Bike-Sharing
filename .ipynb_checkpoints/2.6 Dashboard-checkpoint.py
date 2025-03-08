@@ -79,7 +79,7 @@ st.plotly_chart(fig_2, use_container_width=True)
 
 ### Add the map ###
 
-path_to_html = "Citi Bikes map.html" 
+path_to_html = "Citi_bikes_map.html" 
 
 # Read file and keep in variable
 with open(path_to_html,'r') as f: 
