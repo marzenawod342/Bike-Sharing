@@ -58,7 +58,7 @@ elif page == 'Weather component and bike usage':
     df['date'] = pd.to_datetime(df['date'])
 
     # Create a sample data
-    df_sample = df.resample('1D', on='date').mean().reset_index()
+    df_sample = df.resample('1D', on='date').mean(numeric_only=True).reset_index()
     # Line chart with dual y-axes
     fig_2= make_subplots(specs=[[{"secondary_y": True}]])
 
